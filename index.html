@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ArConnect Example</title>
+    <script src="https://unpkg.com/arweave/bundles/web.bundle.js"></script>
+  </head>
+  <body>
+    <h1 style="text-align: center">
+      Welcome to ArConnect Test DApp
+    </h1>
+    <button id="connect" style="margin: 0 auto; display: block;">
+      Install ArConnect
+    </button>
+    <p style="margin: 0 auto; width: max-content">Current Address: <b id="address"></b></p>
+    <br>
+    <div id="userinfo" style="margin: 0 auto; width: max-content"></div>
+    <br>
+    <br>
+    <button id="createTX" style="display: none; margin: 0 auto;">Create and sign transaction</button>
+    <pre id="createTXInfo" style="margin: 0 auto; overflow-wrap: break-word;"></pre>
+    <button id="encrypt" style="display: none; margin: 0 auto;">Encrypt / decrypt</button>
+    <div id="encryptInfo" style="margin: 0 auto; overflow-wrap: break-word;"></div>
+    <button id="disconnect" style="display: none; margin: 0 auto;">Log out</button>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
